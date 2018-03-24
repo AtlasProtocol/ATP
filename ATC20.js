@@ -395,8 +395,8 @@ ATCContract.prototype = {
         }
         
         if (typeof from != "undefined") {
-            this._transferATP(from, clickerAddr, publisherAddr, price, id);
-            this._transferATP(from, publisherAddr, publisherAddr, price, id);
+            this._transferATP(from, clickerAddr, publisherAddr, price, id); // award end user
+            this._transferATP(from, publisherAddr, publisherAddr, price, id); // pay publisher
         }
     }
 
