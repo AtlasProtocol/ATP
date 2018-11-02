@@ -1,0 +1,44 @@
+{
+  "name": "atc",
+  "version": "1.0.0",
+  "description": "Atlas Protocol Coin",
+  "main": "token.js",
+  "dependencies": {
+    "bignumber.js": "^5.0.0",
+    "extend": "^3.0.1",
+    "nebulas": "^0.5.5",
+    "node-localstorage": "^1.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.54",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^23.4.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "jest": "^23.3.0",
+    "js-beautify": "^1.7.5",
+    "regenerator-runtime": "^0.12.0",
+    "rollup": "^0.63.4",
+    "rollup-plugin-json": "^3.0.0"
+  },
+  "scripts": {
+    "test": "jest --verbose",
+    "coverage": "jest --coverage --verbose",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/atlasp/atp.git"
+  },
+  "keywords": [
+    "nrc20"
+  ],
+  "author": "Lobatt, Kyli, ZhaoJing",
+  "license": "LGPL-3.0-or-later",
+  "homepage": "https://atlasp.io"
+}
